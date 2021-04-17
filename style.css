@@ -5,6 +5,7 @@ body {
     font-size: 200%;
     color: #fff;
     text-shadow: 1px 1px 1px #666;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -73,8 +74,50 @@ p {
     padding: 6%;
 }
 
+img {
+    margin: 0 auto;
+}
 
+#icon {
+    max-width: 200px;
+    margin: 1% auto;
+}
 
+.social {
+    font-size: 250%;
+}
+
+.social a {
+    padding: 3%;
+    color: #fff;
+}
+.social a:hover {
+    color: #d5d5d5;
+}
+
+#home {
+    padding-top: 60px;
+}
+
+#about {
+    padding: 70px 0;
+    background-color: #1fb8eb;
+}
+
+#features {
+    padding: 70px 0 50px;
+    background-color: #ff9800;
+}
+
+#portfolio {
+    padding: 70px 0 50px;
+    background-color: #00b2ca;
+}
+
+#connect {
+    padding: 0 0 12%;
+    background-color: #673ab7;
+}
 
 
 
