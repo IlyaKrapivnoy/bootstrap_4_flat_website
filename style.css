@@ -48,6 +48,30 @@ body {
     background-color: #5398c6;
 }
 
+img.banner {
+    width: 100%;
+}
+
+h1 {
+    font-size: 300%;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #666;
+}
+
+h2 {
+    font-size: 210%;
+}
+
+h3 {
+    font-size: 150%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 120%;
+    padding: 6%;
+}
 
 
 
