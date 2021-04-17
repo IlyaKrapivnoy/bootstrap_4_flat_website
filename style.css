@@ -119,17 +119,36 @@ img {
     background-color: #673ab7;
 }
 
+.row {
+    margin: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 768px) {
+    h1 {
+        font-size: 170%;
+    }
+    h2 {
+        font-size: 110%;
+    }
+    h3 {
+        font-size: 120%;
+        min-width: 90%;
+    }
+    p {
+        padding-top: 3%;
+        font-size: 100%;
+    }
+    img#code {
+        max-width: 160px;
+    }
+    .col-sm-4 #icon {
+        max-width: 110px;
+    }
+    .col-md-4 #icon {
+        max-width: 110px;
+        padding-bottom: 8%;
+    }
+    .social {
+        font-size: 150%;
+    }
+}
